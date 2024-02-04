@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #000000;
+    background-color: #161616;
     margin: 0;
     height: 100vh;
 }
@@ -72,6 +72,6 @@ p{
 }
 .img{
     position: relative;
-    left: 55%;
-    bottom: 40%;
+    left: 65%;
+    bottom: 35%;
 }
