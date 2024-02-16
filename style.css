@@ -54,7 +54,7 @@ nav{
 }
 .dropbtn:hover .dropdown-content{
     display: block;
-    transition: .2s;
+    transition: .5s;
     background-color: transparent;
 }
 body{
