@@ -76,8 +76,10 @@ html{
 }
 hr{
     position: relative;
-    top: 100px;
-    border: 3px solid #4b1ce3;;
+    top: 20px;
+    width: 50%;
+    margin-left: 25%;
+    border: 1px solid #3a3a3a;
 }
 h1{
     color: rgb(255, 255, 255);
@@ -109,11 +111,11 @@ p{
 }
 .btn:hover{
     background-color: #6a45e2;
-    transition: .2s;
-    transform: scale(98%);
+    transition: .3s;
+    transform: scale(1.1);
 }
 
-.image-container img {
+.visu img {
     display: flex;
     justify-content: space-around;
     margin: 100px;
@@ -122,6 +124,11 @@ p{
     width: 30%;
     height: auto;
     border-radius: 50px;
+}
+.visu img:hover{
+    transform: scale(1.1);
+    transition: .3s;
+    opacity: 50%;
 }
 .btnp{
     width: 150px;
@@ -134,9 +141,9 @@ p{
     margin-left: 630px;
 }
 .btnp:hover{
-    transition: .1s;
+    transition: .3s;
     background-color: #6a45e2;
-    transform: scaleX(98%);
+    transform: scale(1.1);
 }
 footer {
     background-color: #0f0f0f;
